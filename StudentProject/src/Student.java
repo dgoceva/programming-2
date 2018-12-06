@@ -22,7 +22,7 @@ public class Student {
 	public void setAvMark(float avMark) {
 		this.avMark = avMark;
 	}
-	@Override
+//	@Override
 	public String toString() {
 		return "Student [number=" + number + ", name=" + name + ", avMark=" + avMark + "]";
 	}
