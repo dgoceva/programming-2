@@ -8,6 +8,9 @@ public class Student {
 		return number;
 	}
 	public void setNumber(short number) {
+		if (number<0) {
+			throw new ArithmeticException("Number should be positive!");
+		}
 		this.number = number;
 	}
 	public String getName() {
@@ -20,6 +23,9 @@ public class Student {
 		return avMark;
 	}
 	public void setAvMark(float avMark) {
+		if (avMark < 2 || avMark > 6) {
+			throw new ArithmeticException("Mark should be between 2 and 6!");
+		}
 		this.avMark = avMark;
 	}
 //	@Override

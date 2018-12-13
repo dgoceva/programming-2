@@ -1,0 +1,2 @@
+XII 13, 2018 12:08:51 PM StudentMain main
+SEVERE: Mark should be between 2 and 6!
